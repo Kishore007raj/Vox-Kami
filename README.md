@@ -1,8 +1,8 @@
-# 🛡️ VoIPDefender — Defensive VoIP Monitoring, Detection & Forensics Platform
+# 🛡️ Vox-Kami — Defensive VoIP Monitoring, Detection & Forensics Platform
 
 ## 📖 Overview
 
-**VoIPDefender** is an isolated, reproducible **VoIP defense and forensics platform** designed to capture, detect, and investigate VoIP (SIP/RTP) attacks **within a controlled lab environment**.
+**Vox-Kami** is an isolated, reproducible **VoIP defense and forensics platform** designed to capture, detect, and investigate VoIP (SIP/RTP) attacks **within a controlled lab environment**.
 It focuses on **defensive monitoring, anomaly detection, and forensic reconstruction** — enabling analysts to **detect, investigate, and remediate** simulated VoIP hijack or tamper attempts.
 
 > ⚠️ **Ethical Notice:**
