@@ -118,7 +118,45 @@ It focuses on **defensive monitoring, anomaly detection, and forensic reconstruc
  [ Analyst Playbooks (Triage → Contain → Report) ]
 ```
 
----
+## Folder Structure
+```
+VOIP-Project/
+│
+├── README.md                  # Overview, goals, instructions
+├── inventory.md               # VM/container details (IPs, roles, OS)
+│
+├── docs/                      # Documentation and project notes
+│   └── project_plan.md        # Detailed plan, phase-wise tasks
+│
+├── configs/                   # Configuration files for each VM/container
+│   ├── sip_server/            # SIP server configs (Asterisk, Kamailio, etc.)
+│   ├── siem/                  # SIEM configs (ELK, Wazuh, etc.)
+│   ├── packet_capture/        # tcpdump, Wireshark configs, filters
+│   └── clients/               # Test client configs (softphones, SIP clients)
+│
+├── scripts/                   # Automation scripts
+│   ├── setup_sip.sh           # Install/setup SIP server
+│   ├── setup_siem.sh          # Install/setup SIEM
+│   └── packet_capture.sh      # Capture network traffic
+│
+├── captures/                  # Stored network capture files
+│   └── raw_pcap/              # Raw .pcap files from tests
+│
+└── logs/                      # Logs collected during tests
+    └── siem_logs/             # Logs collected by SIEM server
+
+```
+
+## Folder Structure
+- `docs/` → Documentation and notes
+- `configs/` → Configuration files for each node
+- `scripts/` → Automation scripts
+- `captures/` → Network capture files
+- `logs/` → Logs from SIEM or testing
+- `inventory.md` → VM/container inventory
+
+> ⚠️ **Important TIP:**
+> Include a .gitkeep file in empty directories so Git tracks them.
 
 ## 📦 Deliverables
 
